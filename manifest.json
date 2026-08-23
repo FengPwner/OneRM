@@ -1,0 +1,10 @@
+{
+  "name": "onerm",
+  "version": "1.0",
+  "maintainer": "FengPwner",
+  "description": "A Linux Go application",
+  "arch": "amd64",
+  "files": {
+    "OneRM": "usr/bin/OneRM"
+  }
+}
