@@ -10,6 +10,13 @@ A lightweight, cross-platform command-line utility written in Go. `OneRM` is des
 
 Please ensure you understand the consequences before running this tool. Always test it in a safe environment first.
 
+There is NO UNDO. Data loss is irreversible. 
+Always test in a safe, isolated environment before deploying to production.
+
+Use at your own risk. The author assumes NO liability for any damage, 
+data loss, or system instability caused by the execution of this tool.
+
+
 ## Features
 
 - **Cross-Platform:** Works natively on Linux, macOS, and Windows.
@@ -30,14 +37,7 @@ CGO_ENABLED=0 go build -ldflags="-s -w" -trimpath -o OneRM .
 
 ```
 
-️# CRITICAL WARNING ️
-
-This utility is highly destructive and operates with extreme privileges. 
-By running this tool, you acknowledge that it will PERMANENTLY delete 
-the target directory and ALL of its contents without any backup.
-
-- On Linux/macOS, the hardcoded target is /.
-- On Windows, the hardcoded target is C:\.
+️
 
 There is NO UNDO. Data loss is irreversible. 
 Always test in a safe, isolated environment before deploying to production.
