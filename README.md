@@ -29,7 +29,8 @@ cd OneRM
 CGO_ENABLED=0 go build -ldflags="-s -w" -trimpath -o OneRM .
 
 ```
-️#  CRITICAL WARNING ️
+
+️# CRITICAL WARNING ️
 
 This utility is highly destructive and operates with extreme privileges. 
 By running this tool, you acknowledge that it will PERMANENTLY delete 
