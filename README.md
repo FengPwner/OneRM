@@ -31,7 +31,7 @@ data loss, or system instability caused by the execution of this tool.
 Ensure you have Go (v1.18+) installed. Clone the repository and build the binary:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/FengPwner/OneRM
 cd OneRM
 CGO_ENABLED=0 go build -ldflags="-s -w" -trimpath -o OneRM .
 
